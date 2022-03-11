@@ -1,0 +1,13 @@
+name: OpenServerPlugin
+version: '${project.version}'
+main: com.gmail.kobun127.openserver.OpenServer
+authors: [ howard127 ]
+description: サーバー開閉プラグイン
+commands:
+  openserver:
+    aliases:
+      - os
+      - open
+    description: サーバーを開けます
+  reloadconfig:
+    description: コンフィグを再読み込みします
